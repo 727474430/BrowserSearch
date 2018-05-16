@@ -1,0 +1,31 @@
+<idea-plugin>
+  <id>com.raindrop</id>
+  <name>Bing Search</name>
+  <version>1.0</version>
+  <vendor email="qq727474430@gmail.com">raindrop</vendor>
+
+  <description><![CDATA[
+        <html>A mimple bing jump tool, Simplify copying before pasting into the browser<br>
+        <em>Default shortcuts: Alt + B + I</em> <br>
+        <a href="https://github.com/727474430/GotoBing">The source address</a>
+        </html>
+    ]]></description>
+
+  <change-notes><![CDATA[
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="SearchInBing" class="com.raindrop.SearchInBing" text="search in bing" description="search in bing">
+      <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl B" second-keystroke="I"/>
+    </action>
+  </actions>
+  <extensions defaultExtensionNs="com.intellij">
+  </extensions>
+
+</idea-plugin>

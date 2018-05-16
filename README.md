@@ -1,0 +1,1 @@
+### This plugin helps us to bing up the browser in idea and search in bing
