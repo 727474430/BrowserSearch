@@ -20,7 +20,7 @@ import javax.swing.*;
 public class SearchDuckduckgo extends AnAction {
 
 	/** Default Prefix */
-	public static final String DUCK_SEARCH_PREFIX = "https://www.google.com/search?q=";
+	public static final String DUCK_SEARCH_PREFIX = "https://duckduckgo.com/?q=";
 	/** Default Suffix */
 	public static final String DEFAULT_SUFFIX = "";
 
