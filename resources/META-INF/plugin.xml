@@ -1,31 +1,49 @@
 <idea-plugin>
-  <id>com.raindrop</id>
-  <name>Bing Search</name>
-  <version>1.0</version>
-  <vendor email="qq727474430@gmail.com">raindrop</vendor>
+    <id>com.raindrop</id>
+    <name>Browser Search</name>
+    <version>1.0</version>
+    <vendor email="qq727474430@gmail.com">raindrop</vendor>
 
-  <description><![CDATA[
-        <html>A mimple bing jump tool, Simplify copying before pasting into the browser<br>
-        <em>Default shortcuts: Alt + B + I</em> <br>
-        <a href="https://github.com/727474430/GotoBing">The source address</a>
+    <description><![CDATA[
+        <html>A simple browser search jump tool, Simplify copying before pasting into the browser<br>
+        <em>Default shortcuts: Alt + B + I  Bing Search</em> <br>
+        <em>Default shortcuts: Alt + B + B  Baidu Search</em> <br>
+        <em>Default shortcuts: Alt + B + G  Google Search</em> <br>
+        <em>Default shortcuts: Alt + B + D  Duckduckgo Search</em> <br>
+        <a href="https://github.com/727474430/BrowserSearch">The source address</a>
         </html>
     ]]></description>
 
-  <change-notes><![CDATA[
+    <change-notes><![CDATA[
     ]]>
-  </change-notes>
+    </change-notes>
 
-  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-  <idea-version since-build="173.0"/>
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="173.0"/>
 
-  <actions>
-    <!-- Add your actions here -->
-    <action id="SearchInBing" class="com.raindrop.SearchInBing" text="search in bing" description="search in bing">
-      <add-to-group group-id="EditorPopupMenu" anchor="first"/>
-      <keyboard-shortcut keymap="$default" first-keystroke="ctrl B" second-keystroke="I"/>
-    </action>
-  </actions>
-  <extensions defaultExtensionNs="com.intellij">
-  </extensions>
+    <actions>
+        <!-- 必应搜索 -->
+        <action id="SearchInBing" class="com.raindrop.SearchInBing" text="search in bing" description="search in bing">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl B" second-keystroke="I"/>
+        </action>
+        <!-- 百度搜索 -->
+        <action id="SearchBaidu" class="com.raindrop.SearchBaidu" text="search in baidu" description="search in baidu">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl B" second-keystroke="B"/>
+        </action>
+        <!-- 谷歌搜索 -->
+        <action id="SearchGoogle" class="com.raindrop.SearchGoogle" text="search in google" description="search in google">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl B" second-keystroke="G"/>
+        </action>
+        <!-- Duckduckgo搜索 -->
+        <action id="SearchDuckduckgo" class="com.raindrop.SearchDuckduckgo" text="search in duckduckgo" description="search in duckduckgo">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl B" second-keystroke="D"/>
+        </action>
+    </actions>
+    <extensions defaultExtensionNs="com.intellij">
+    </extensions>
 
 </idea-plugin>

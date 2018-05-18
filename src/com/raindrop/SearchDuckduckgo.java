@@ -11,21 +11,21 @@ import org.apache.commons.lang.StringUtils;
 import javax.swing.*;
 
 /**
- * @name: com.raindrop.SearchInBing.java
- * @description: 必应搜索Action
+ * @name: com.raindrop.SearchDuckduckgo.java
+ * @description: Duckduckgo搜索Action
  * @author: Wang Liang
  * @create Time: 2018/5/16 20:47
  * @copyright:
  */
-public class SearchInBing extends AnAction {
+public class SearchDuckduckgo extends AnAction {
 
 	/** Default Prefix */
-	public static final String BING_SEARCH_PREFIX = "https://cn.bing.com/search?q=";
+	public static final String DUCK_SEARCH_PREFIX = "https://www.google.com/search?q=";
 	/** Default Suffix */
 	public static final String DEFAULT_SUFFIX = "";
 
-	public SearchInBing() {
-		super(null, null, new ImageIcon(SearchInBing.class.getClassLoader().getResource("icon/bing.png")));
+	public SearchDuckduckgo() {
+		super(null, null, new ImageIcon(SearchDuckduckgo.class.getClassLoader().getResource("icon/duckduckgo.png")));
 	}
 
 	@Override
@@ -38,9 +38,10 @@ public class SearchInBing extends AnAction {
 		String text = selectionModel.getSelectedText();
 		if (StringUtils.isNotBlank(text)) {
 			// Open the browser
-			BrowserUtil.browse(BING_SEARCH_PREFIX + text);
+			BrowserUtil.browse(DUCK_SEARCH_PREFIX + text);
 		} else {
-			BrowserUtil.browse(BING_SEARCH_PREFIX + DEFAULT_SUFFIX);
+			BrowserUtil.browse(DUCK_SEARCH_PREFIX + DEFAULT_SUFFIX);
 		}
 	}
+
 }
