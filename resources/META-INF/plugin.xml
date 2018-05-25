@@ -10,6 +10,7 @@
         <em>Default shortcuts: Alt + B + B  Baidu Search</em> <br>
         <em>Default shortcuts: Alt + B + G  Google Search</em> <br>
         <em>Default shortcuts: Alt + B + D  Duckduckgo Search</em> <br>
+        <em>Default shortcuts: Alt + B + S  StackOverflow Search</em> <br>
         <a href="https://github.com/727474430/BrowserSearch">The source address</a>
         </html>
     ]]></description>
@@ -41,6 +42,11 @@
         <action id="SearchDuckduckgo" class="com.raindrop.SearchDuckduckgo" text="search in duckduckgo" description="search in duckduckgo">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
             <keyboard-shortcut keymap="$default" first-keystroke="ctrl B" second-keystroke="D"/>
+        </action>
+        <!-- StackOverflow搜索 -->
+        <action id="SearchStackOverflow" class="com.raindrop.SearchStackOverflow" text="search in stackoverflow" description="search in stackoverflow">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl B" second-keystroke="S"/>
         </action>
     </actions>
     <extensions defaultExtensionNs="com.intellij">
