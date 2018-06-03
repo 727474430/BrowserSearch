@@ -6,11 +6,11 @@
 
     <description><![CDATA[
         <html>A simple browser search jump tool, Simplify copying before pasting into the browser<br>
-        <em>Default shortcuts: Alt + B + I  Bing Search</em> <br>
-        <em>Default shortcuts: Alt + B + B  Baidu Search</em> <br>
-        <em>Default shortcuts: Alt + B + G  Google Search</em> <br>
-        <em>Default shortcuts: Alt + B + D  Duckduckgo Search</em> <br>
-        <em>Default shortcuts: Alt + B + S  StackOverflow Search</em> <br>
+        <em>Default shortcuts: Ctrl + B + I  Bing Search</em> <br>
+        <em>Default shortcuts: Ctrl + B + B  Baidu Search</em> <br>
+        <em>Default shortcuts: Ctrl + B + G  Google Search</em> <br>
+        <em>Default shortcuts: Ctrl + B + D  Duckduckgo Search</em> <br>
+        <em>Default shortcuts: Ctrl + B + S  StackOverflow Search</em> <br>
         <a href="https://github.com/727474430/BrowserSearch">The source address</a>
         </html>
     ]]></description>

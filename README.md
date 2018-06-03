@@ -9,5 +9,4 @@
 
 ![example](src/img/BrowserSearch.png)
 
-
 [![Build Status](https://travis-ci.org/727474430/Apache-POI.svg?branch=master)](https://travis-ci.org/727474430/Apache-POI)
