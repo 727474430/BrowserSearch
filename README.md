@@ -1,12 +1,29 @@
-### This is a intellij idea plugin,Provides a built-in search method。Can pass shortcut keys or right click
-- Bing Search: Ctrl + B + I
-- Baidu Search: Ctrl + B + B
-- Google Search: Ctrl + B + G
-- Duckduckgo Search: Ctrl + B + D
-- StackOverflow Search: Ctrl + B + S
+### This is a intellij Idea plugin，Provides a built-in search method，Can pass shortcut keys or right click
 
-### Example
+[中文注释](https://github.com/727474430/BrowserSearch/blob/master/README_CN.md)
 
-![example](src/img/BrowserSearch.png)
+- Bing Search: **Ctrl + B + I**
+- Baidu Search: **Ctrl + B + B**
+- Google Search: **Ctrl + B + G**
+- Duckduckgo Search: **Ctrl + B + D**
+- StackOverflow Search: **Ctrl + B + S**
 
-[![Build Status](https://travis-ci.org/727474430/Apache-POI.svg?branch=master)](https://travis-ci.org/727474430/Apache-POI)
+
+
+### How to use.
+
+* **Download BrowserSearch.jar**
+
+* **Add To Intellij Idea Plugin**
+
+  ![Install](src/img/install.png)
+
+* **Select need to search content Press the corresponding shortcut (right click)**
+
+  ![Use](src/img/use.png)
+
+  ![Result](src/img/result.png)
+
+
+
+
