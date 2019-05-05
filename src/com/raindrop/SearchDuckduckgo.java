@@ -6,25 +6,22 @@ import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.actionSystem.PlatformDataKeys;
 import com.intellij.openapi.editor.Editor;
 import com.intellij.openapi.editor.SelectionModel;
-import org.apache.commons.lang.StringUtils;
 
 import javax.swing.*;
 
 /**
  * @name: com.raindrop.SearchDuckduckgo.java
- * @description: Duckduckgo搜索Action
- * @author: Wang Liang
+ * @description: Duckduckgo search
+ * @author: Raindrop
  * @create Time: 2018/5/16 20:47
- * @copyright:
  */
 public class SearchDuckduckgo extends AnAction {
 
 	/** Default Prefix */
 	public static final String DUCK_SEARCH_PREFIX = "https://duckduckgo.com/?q=";
-	/** Default Suffix */
-	public static final String DEFAULT_SUFFIX = "";
 
 	public SearchDuckduckgo() {
+		// Load icon
 		super(null, null, new ImageIcon(SearchDuckduckgo.class.getClassLoader().getResource("icon/duckduckgo.png")));
 	}
 
@@ -36,11 +33,11 @@ public class SearchDuckduckgo extends AnAction {
 		SelectionModel selectionModel = editor.getSelectionModel();
 		// get user selected text
 		String text = selectionModel.getSelectedText();
-		if (StringUtils.isNotBlank(text)) {
+		if (text != null && text.trim() != "") {
 			// Open the browser
 			BrowserUtil.browse(DUCK_SEARCH_PREFIX + text);
 		} else {
-			BrowserUtil.browse(DUCK_SEARCH_PREFIX + DEFAULT_SUFFIX);
+			BrowserUtil.browse(DUCK_SEARCH_PREFIX);
 		}
 	}
 

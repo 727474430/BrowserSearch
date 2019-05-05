@@ -2,13 +2,32 @@
 
 [中文注释](https://github.com/727474430/BrowserSearch/blob/master/README_CN.md)
 
-- Bing Search: **Ctrl + B + I**
-- Baidu Search: **Ctrl + B + B**
-- Google Search: **Ctrl + B + G**
-- Duckduckgo Search: **Ctrl + B + D**
-- StackOverflow Search: **Ctrl + B + S**
-
-
+<table>
+    <tr>
+        <th>Hot Key</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Ctrl + B + I</td>
+        <td>Bing Search</td>
+    </tr>
+    <tr>
+        <td>Ctrl + B + B</td>
+        <td>Baidu Search</td>
+    </tr>
+    <tr>
+        <td>Ctrl + B + G</td>
+        <td>Google Search</td>
+    </tr>
+    <tr>
+        <td>Ctrl + B + D</td>
+        <td>Duckduckgo Search</td>
+    </tr>
+    <tr>
+        <td>Ctrl + B + S</td>
+        <td>StackOverflow Search</td>
+    </tr>
+</table>
 
 ### How to use.
 
@@ -23,7 +42,3 @@
   ![Use](src/img/use.png)
 
   ![Result](src/img/result.png)
-
-
-
-

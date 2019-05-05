@@ -1,12 +1,31 @@
 ### 这是一个Intellij Idea插件，提供了内置的搜索方式，可以通过快捷键或右键点击使用
 
-- 必应搜索: **Ctrl + B + I**
-- 百度搜索: **Ctrl + B + B**
-- 谷歌搜索: **Ctrl + B + G**
-- Duckduckgo 搜索: **Ctrl + B + D**
-- StackOverflow 搜索: **Ctrl + B + S**
-
-
+<table>
+    <tr>
+        <th>Hot Key</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Ctrl + B + I</td>
+        <td>必应搜索</td>
+    </tr>
+    <tr>
+        <td>Ctrl + B + B</td>
+        <td>百度搜索</td>
+    </tr>
+    <tr>
+        <td>Ctrl + B + G</td>
+        <td>谷歌搜索</td>
+    </tr>
+    <tr>
+        <td>Ctrl + B + D</td>
+        <td>Duckduckgo搜索</td>
+    </tr>
+    <tr>
+        <td>Ctrl + B + S</td>
+        <td>StackOverflow搜索</td>
+    </tr>
+</table>
 
 ### 如何使用
 
@@ -21,8 +40,3 @@
   ![Use](src/img/use.png)
 
   ![Result](src/img/result.png)
-
-
-
-
-

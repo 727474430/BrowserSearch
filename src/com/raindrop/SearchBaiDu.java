@@ -10,21 +10,21 @@ import com.intellij.openapi.editor.SelectionModel;
 import javax.swing.*;
 
 /**
- * @name: com.raindrop.SearchInBing.java
- * @description: Bing search
+ * @name: com.raindrop.SearchBaiDu.java
+ * @description: BaiDu search
  * @author: Raindrop
  * @create Time: 2018/5/16 20:47
  */
-public class SearchInBing extends AnAction {
+public class SearchBaiDu extends AnAction {
 
     /**
      * Default Prefix
      */
-    public static final String BING_SEARCH_PREFIX = "https://cn.bing.com/search?q=";
+    private static final String BAIDU_SEARCH_PREFIX = "https://www.baidu.com/s?wd=";
 
-    public SearchInBing() {
+    public SearchBaiDu() {
         // Load icon
-        super(null, null, new ImageIcon(SearchInBing.class.getClassLoader().getResource("icon/bing.png")));
+        super(null, null, new ImageIcon(SearchBaiDu.class.getClassLoader().getResource("icon/baidu.png")));
     }
 
     @Override
@@ -37,9 +37,10 @@ public class SearchInBing extends AnAction {
         String text = selectionModel.getSelectedText();
         if (text != null && text.trim() != "") {
             // Open the browser
-            BrowserUtil.browse(BING_SEARCH_PREFIX + text);
+            BrowserUtil.browse(BAIDU_SEARCH_PREFIX + text);
         } else {
-            BrowserUtil.browse(BING_SEARCH_PREFIX);
+            BrowserUtil.browse(BAIDU_SEARCH_PREFIX);
         }
     }
+
 }

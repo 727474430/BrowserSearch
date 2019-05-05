@@ -1,8 +1,8 @@
 <idea-plugin>
     <id>com.raindrop</id>
     <name>Browser Search</name>
-    <version>1.0</version>
-    <vendor email="qq727474430@gmail.com">raindrop</vendor>
+    <version>1.0 Release</version>
+    <vendor email="qq727474430@gmail.com">Raindrop</vendor>
 
     <description><![CDATA[
         <html>A simple browser search jump tool, Simplify copying before pasting into the browser<br>
@@ -16,6 +16,9 @@
     ]]></description>
 
     <change-notes><![CDATA[
+        <ul>
+            <li>v1.0 Release</li>
+        </ul>
     ]]>
     </change-notes>
 
