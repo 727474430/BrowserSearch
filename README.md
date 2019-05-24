@@ -31,13 +31,23 @@
 
 ### How to use.
 
-* **Download BrowserSearch.jar**
+**Way one**
+* Open Intellij IDEA -> Click File -> Click Settings -> Click Plugins
 
-* **Add To Intellij Idea Plugin**
+* Choose **Marketplace**, search **Browser Search** and find first content click install
+
+* Restart Intellij IDEA ready to use
+   
+   ![MarketInstall](src/img/marketInstall.png)
+
+**Way two**
+* Download BrowserSearch.jar
+
+* Add To Intellij Idea Plugin
 
   ![Install](src/img/install.png)
 
-* **Select need to search content Press the corresponding shortcut (right click)**
+* Select need to search content Press the corresponding shortcut (right click)
 
   ![Use](src/img/use.png)
 

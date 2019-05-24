@@ -29,13 +29,23 @@
 
 ### 如何使用
 
-* **下载 BrowserSearch.jar**
+**第一种**
+* 打开 Intellij IDEA -> 点击 File 菜单 -> 点击 Settings -> 点击 Plugins
 
-* **添加到Intellij Idea插件中**
+* 选择 **Marketplace**, 搜索 **Browser Search** 找到第一个点击安装
+
+* 重启 Intellij IDEA 即可使用
+   
+   ![MarketInstall](src/img/marketInstall.png)
+
+**第二种**
+* 下载 BrowserSearch.jar
+
+* 添加到Intellij Idea插件中
 
   ![Install](src/img/install.png)
 
-* **选择需要搜索的问题按下对应快捷键（右键点击）**
+* 选择需要搜索的问题按下对应快捷键（右键点击）
 
   ![Use](src/img/use.png)
 
