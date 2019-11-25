@@ -32,7 +32,7 @@
             <keyboard-shortcut keymap="$default" first-keystroke="ctrl B" second-keystroke="I"/>
         </action>
         <!-- 百度搜索 -->
-        <action id="SearchBaidu" class="com.raindrop.SearchBaidu" text="search in baidu" description="search in baidu">
+        <action id="SearchBaidu" class="com.raindrop.SearchBaiDu" text="search in baidu" description="search in baidu">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
             <keyboard-shortcut keymap="$default" first-keystroke="ctrl B" second-keystroke="B"/>
         </action>
