@@ -7,9 +7,9 @@
     <description><![CDATA[
         <html>A simple browser search jump tool, Simplify copying before pasting into the browser<br>
         <em>Default shortcuts: Ctrl + B + I  Bing Search</em> <br>
-        <em>Default shortcuts: Ctrl + B + B  Baidu Search</em> <br>
+        <em>Default shortcuts: Ctrl + B + B  BaiDu Search</em> <br>
         <em>Default shortcuts: Ctrl + B + G  Google Search</em> <br>
-        <em>Default shortcuts: Ctrl + B + D  Duckduckgo Search</em> <br>
+        <em>Default shortcuts: Ctrl + B + D  DuckDuckGo Search</em> <br>
         <em>Default shortcuts: Ctrl + B + S  StackOverflow Search</em> <br>
         <a href="https://github.com/727474430/BrowserSearch">The source address</a>
         </html>
@@ -27,27 +27,32 @@
 
     <actions>
         <!-- 必应搜索 -->
-        <action id="SearchInBing" class="com.raindrop.SearchInBing" text="search in bing" description="search in bing">
+        <action id="SearchInBing" class="com.raindrop.action.SearchInBing" text="search in bing"
+                description="search in bing">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
             <keyboard-shortcut keymap="$default" first-keystroke="ctrl B" second-keystroke="I"/>
         </action>
         <!-- 百度搜索 -->
-        <action id="SearchBaidu" class="com.raindrop.SearchBaiDu" text="search in baidu" description="search in baidu">
+        <action id="SearchBaiDu" class="com.raindrop.action.SearchBaiDu" text="search in baidu"
+                description="search in baidu">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
             <keyboard-shortcut keymap="$default" first-keystroke="ctrl B" second-keystroke="B"/>
         </action>
         <!-- 谷歌搜索 -->
-        <action id="SearchGoogle" class="com.raindrop.SearchGoogle" text="search in google" description="search in google">
+        <action id="SearchGoogle" class="com.raindrop.action.SearchGoogle" text="search in google"
+                description="search in google">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
             <keyboard-shortcut keymap="$default" first-keystroke="ctrl B" second-keystroke="G"/>
         </action>
-        <!-- Duckduckgo搜索 -->
-        <action id="SearchDuckduckgo" class="com.raindrop.SearchDuckduckgo" text="search in duckduckgo" description="search in duckduckgo">
+        <!-- DuckDuckGo搜索 -->
+        <action id="SearchDuckDuckGo" class="com.raindrop.action.SearchDuckDuckGo" text="search in duckduckgo"
+                description="search in duckduckgo">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
             <keyboard-shortcut keymap="$default" first-keystroke="ctrl B" second-keystroke="D"/>
         </action>
         <!-- StackOverflow搜索 -->
-        <action id="SearchStackOverflow" class="com.raindrop.SearchStackOverflow" text="search in stackoverflow" description="search in stackoverflow">
+        <action id="SearchStackOverflow" class="com.raindrop.action.SearchStackOverflow" text="search in stackoverflow"
+                description="search in stackoverflow">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
             <keyboard-shortcut keymap="$default" first-keystroke="ctrl B" second-keystroke="S"/>
         </action>
