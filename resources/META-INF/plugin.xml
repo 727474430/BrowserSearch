@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.raindrop</id>
     <name>Browser Search</name>
-    <version>1.0 Release</version>
+    <version>1.1 Release</version>
     <vendor email="qq727474430@gmail.com">Raindrop</vendor>
 
     <description><![CDATA[
@@ -17,7 +17,9 @@
 
     <change-notes><![CDATA[
         <ul>
-            <li>v1.0 Release</li>
+            <li>v1.1 Release</li>
+            <li>Bug Fix.</li>
+            <li>Code review.</li>
         </ul>
     ]]>
     </change-notes>
